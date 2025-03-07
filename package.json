@@ -1,0 +1,19 @@
+{
+  "name": "prompt-sync",
+  "version": "1.0.0",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kishore163/NewJSProj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kishore163/NewJSProj/issues"
+  },
+  "homepage": "https://github.com/kishore163/NewJSProj#readme",
+  "description": ""
+}
