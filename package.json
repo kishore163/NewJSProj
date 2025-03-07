@@ -15,5 +15,8 @@
     "url": "https://github.com/kishore163/NewJSProj/issues"
   },
   "homepage": "https://github.com/kishore163/NewJSProj#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
