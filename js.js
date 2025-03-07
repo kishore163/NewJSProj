@@ -25,10 +25,10 @@ const getnumberofLines=()=>{
     
 }
 
-const getBet=(balance)=>{
+const getBet=(balance, numberofLines)=>{
     const getuserBet=prompt("Enter the bet amount: ");
     const userBet=parseFloat(getuserBet);
-    if(userBet>balance || userBet<=0){
+    if(userBet>balance || userBet<=0||userBet>balance/numberofLines){
         console.log("Invalid bet amount");
     }
     else{
@@ -39,4 +39,4 @@ const getBet=(balance)=>{
 
 let depositAmount=deposit();
 const numberofLines=getnumberofLines();
-const userBet= getBet(depositAmount);
+const userBet= getBet(depositAmount,numberofLines);
